@@ -1,4 +1,4 @@
-1. The notebook "MatrixFactorization-Books-Submit.ipynb" implements matrix factorization via the keras layer "Embedding".  
+1. The notebook "MF-Submit.ipynb" implements matrix factorization via the keras layer "Embedding".  
 2. We create a latent space consisting of 10 features.  There are 53424 users and 10000 books in the .csv files.  Clearly 10 may be too small, but given the RMSE is around 0.8 it seems to work quite well.
 3. When you run the notebook, all the code executes to the 'end' (so the notebook isn't divided into 'blocks').  Once you run it, it loads the .csv files, creates the model, fits the model, displays RMSE value, shows several of the predictions for the test set, and then asks you if you want to see predictions for a particular user.
 4.  To get predictions for a particular user, you will see the input box (as shown below)
